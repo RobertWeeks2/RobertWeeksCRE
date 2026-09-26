@@ -398,7 +398,10 @@ footer {
 }
 
 .research-group {
-    margin-bottom: 80px;
+    background: #f6f8fa;
+    border: 1px solid #e3e7eb;
+    padding: 30px 30px 28px;
+    margin-bottom: 38px;
 }
 
 .research-group:last-child {
@@ -407,20 +410,26 @@ footer {
 
 .research-group h2 {
     font-size: 28px;
-    margin-bottom: 30px;
+    line-height: 1.2;
+    margin-bottom: 26px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #cfd5db;
 }
 
 .research-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    column-gap: 70px;
-    row-gap: 0;
-    border-top: 1px solid #e5e5e5;
+    gap: 18px;
 }
 
 .research-item {
-    padding: 26px 0 28px;
-    border-bottom: 1px solid #e5e5e5;
+    background: #ffffff;
+    border: 1px solid #dde2e6;
+    padding: 20px 22px;
+    min-height: 105px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .research-item h3 {
@@ -431,6 +440,7 @@ footer {
 }
 
 .research-item a {
+    width: fit-content;
     font-size: 14px;
     font-weight: 700;
     color: #555555;
@@ -470,6 +480,7 @@ footer {
     nav {
         gap: 20px;
     }
+
     .research-grid {
         grid-template-columns: 1fr;
     }
@@ -479,6 +490,12 @@ footer {
     }
 
     .research-group {
-        margin-bottom: 60px;
+        padding: 24px 20px;
+        margin-bottom: 30px;
     }
+
+    .research-group h2 {
+        font-size: 24px;
+    }
+
 }
