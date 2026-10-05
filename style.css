@@ -190,6 +190,27 @@ nav a.active {
     padding: 100px 0 140px;
 }
 
+.about-layout {
+    display: grid;
+    grid-template-columns: 240px 1fr;
+    gap: 48px;
+    align-items: start;
+}
+
+.about-photo-wrap {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.about-photo {
+    width: 100%;
+    max-width: 240px;
+    display: block;
+    border-radius: 18px;
+    object-fit: cover;
+    border: 1px solid #e3e3e3;
+}
+
 .about-content {
     max-width: 760px;
 }
@@ -497,5 +518,12 @@ footer {
     .research-group h2 {
         font-size: 24px;
     }
+.about-layout {
+        grid-template-columns: 1fr;
+        gap: 28px;
+    }
 
+    .about-photo {
+        max-width: 220px;
+    }
 }
