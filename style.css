@@ -530,3 +530,38 @@ footer {
         width: 180px;
     }
 }
+
+/* ------------------------------
+   PROJECT MODEL HEADINGS
+------------------------------ */
+
+.model-image h3 {
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: 18px;
+}
+
+
+/* ------------------------------
+   DEER VALLEY UNDERWRITING
+------------------------------ */
+
+.underwriting-gallery {
+    margin-bottom: 50px;
+}
+
+.underwriting-images {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.underwriting-images img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    border: 1px solid #dddddd;
+    background: #ffffff;
+}
